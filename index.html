@@ -2,13 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <form action="" method="post">  
-        <input type="text">
-        <button type="submit">Send</button>
-    </form>
+    <div class="title">
+        Roadmap for March
+    </div>
+    <hr class="line">
+    <div class="roadmap">
+        <div class="container">
+            <div class="element" id="first"><a href="#">End "Java for begginers" course</a></div>
+            <hr class="line">
+            <div class="element"><a hraf="#">Watch "Java Pro" course</a></div>
+            <hr class="line">
+            <div class="element"><a href="#">Watch "Java EE" course</a></div>
+            <hr class="line">
+            <div class="element">Write simple HTTP server</div>
+            <hr class="line">
+            <div class="element"><a href="#">Watch "Spring Framework for beginners" course</a></div>
+            <hr class="line">
+            <div class="element" id="last">Write API using Spring</div>
+        </div>
+        <div class="progress-container">
+            <div class="text-month">March</div>
+            <div class="progress-bar" >
+                <div class="progress-value" id="value"></div>
+            </div>
+            <div class="text-month">April</div>
+        </div>
+        
+    </div>
     
 </body>
 </html>

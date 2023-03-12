@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(24, 24, 24);
+}
+.title{
+    width:800px;
+    height:50px;
+    background-color: rgb(178, 178, 178);
+    font-size: 30px;
+    text-align: center;
+    color:rgb(16, 16, 16);
+    margin: auto;
+    padding: auto;
+    padding-top: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    box-shadow: 0px 0px 15px black;
+}
+.line{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width:70%;
+}
+.roadmap{
+    display: flex;
+    width:800px;
+    margin: auto;
+    
+}
+.roadmap .line{
+    width:350px;
+    margin: auto;
+    border-color: rgb(104, 104, 104);
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 1000px;
+    width:500px;
+    background-color: rgb(178, 178, 178);
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.8em;
+    color:rgb(20, 20, 20);
+    box-shadow: 0px 0px 15px black;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+#first{
+    margin-top: 70px;
+}
+#last{
+    margin-bottom: 70px;
+}
+.container a{
+    text-decoration: none;
+    color:rgb(20, 20, 20);
+
+}
+.container a:hover{
+    text-decoration: underline;
+}
+
+.progress-container{
+    width:300px;
+    text-align: center;
+    color:aliceblue;
+    font-size: 2em;
+}
+.progress-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1000px;
+}
+.progress-bar{
+    margin: auto;
+    width:50px;
+    height:900px;
+    background-color: rgb(178, 178, 178);
+    border: rgb(126, 126, 126) solid 3px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.progress-value{
+    width:50px;
+    height: 900px;
+    position: relative;
+    bottom:900px;
+    background: linear-gradient();
+    border-radius: 10px;
+}
+
