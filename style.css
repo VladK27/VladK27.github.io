@@ -90,7 +90,7 @@ body{
     height: 900px;
     position: relative;
     bottom:900px;
-    background: linear-gradient();
+    background-color:rgb(76, 76, 76);
     border-radius: 10px;
 }
 
